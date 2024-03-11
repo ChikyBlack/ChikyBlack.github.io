@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #5bc0de;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.content-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.content-row img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-left,
+.text-right {
+    flex: 1;
+}
+
+.text-right {
+    text-align: right;
+}
+.foto1{
+    width: auto;
+    height: auto;
+}
+.parrafo{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+}
+video{
+    width: 1220px;
+    height: 720px;
+}
